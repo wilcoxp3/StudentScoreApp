@@ -1,13 +1,11 @@
-/**
- * The Validation class contains three static methods for input validation.
- * The getInt method receives a valid integer from the user. An overloaded version
- * of getInt also accepts a minimum and maximum allowed value for the integer.
- * The getContinue method returns a Boolean indicating the user's choice to 
- * continue or quit.
- */
+
 
 package studentscoreapp;
 import java.util.Scanner;
+/**
+ * The Validation class contains various method for getting and validating user
+ * input.
+ */
 public class Validation
 {
     /**getInt
@@ -159,7 +157,7 @@ public class Validation
      * @param prompt
      * @param choice1
      * @param choice2
-     * @return 
+     * @return boolean
      */
     public static boolean getChoice(String prompt, String choice1, String choice2)
     {
@@ -194,7 +192,7 @@ public class Validation
      * getString displays a prompt to the user, gets the entire line, and
      * returns that line as a string.
      * @param prompt
-     * @return
+     * @return String
      */
     public static String getString(String prompt)
     {

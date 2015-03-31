@@ -1,11 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package studentscoreapp;
-
+/**
+ * This is a description of what this class does.
+ * @author wilcoxp3
+ */
 public class Student implements Comparable
 {
     private String lastName;
