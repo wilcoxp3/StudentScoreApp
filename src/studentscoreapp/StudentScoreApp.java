@@ -3,7 +3,6 @@
 package studentscoreapp;
 import java.util.Arrays;
 /**
- * <img src="/StudentScoreApp/dist/javadoc/resources/puppy.png">
  * <p>Project 11-2: Student Scores</p>
  * <ul>
  * <li>Professor: Tedd Sperling</li>
