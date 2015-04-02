@@ -1,7 +1,9 @@
 
 package studentscoreapp;
 /**
- * This is a description of what this class does.
+ * The Student class contains fields for a student's last name, first name and
+ * score, as well as getters and setters for each. It also overrides the
+ * toString() method, and the compareTo() method of the comparable interface.
  * @author wilcoxp3
  */
 public class Student implements Comparable
