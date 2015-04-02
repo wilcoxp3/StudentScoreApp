@@ -1,4 +1,3 @@
-
 package studentscoreapp;
 /**
  * The Student class contains fields for a student's last name, first name and

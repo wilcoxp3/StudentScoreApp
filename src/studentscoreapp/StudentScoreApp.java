@@ -1,5 +1,3 @@
-
-
 package studentscoreapp;
 import java.util.Arrays;
 /**
