@@ -13,6 +13,13 @@ public class Student implements Comparable
     
     public Student() {}
     
+    public Student(String lastName, String firstName, int score) 
+    {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.score = score;
+    }
+    
     public void setLastName(String lastName)
     {
         this.lastName = lastName;
