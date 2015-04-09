@@ -127,7 +127,7 @@ public class Validation
         String choice = sc.next();
         
         while(true)
-        {
+        {   
             if (choice.equalsIgnoreCase("y"))
             {
                 answer = true;
@@ -137,7 +137,7 @@ public class Validation
             {
                 answer = false;
                 break;
-            }   
+            }
             else
             {
                 System.out.print("Invalid choice. Please choose 'Y' or 'N': ");
@@ -195,6 +195,7 @@ public class Validation
     public static String getString(String prompt)
     {
         Scanner sc = new Scanner(System.in);
+        
         System.out.print(prompt);
         String userString = sc.nextLine();
         return userString;
